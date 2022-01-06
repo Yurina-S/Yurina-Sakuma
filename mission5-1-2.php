@@ -115,21 +115,21 @@
         value = "<?php if(!empty($edicoment)){echo $edicoment;}?>"
         placeholder="コメント">
         <br>
-        <input type="text" name="pass1" 
+        <input type="password" name="pass1" 
         placeholder="パスワード">
         <input type="submit" name="submit" value="送信">
         <br>
         <input type="number" name="num"
         placeholder="削除対象番号">
         <br>
-        <input type="text" name="pass2" 
+        <input type="password" name="pass2" 
         placeholder="パスワード">
         <input type="submit" name="submit" value="削除">
         <br>
         <input type="number" name="num2"
         placeholder="編集対象番号">
         <br>
-        <input type="text" name="pass3" 
+        <input type="password" name="pass3" 
         placeholder="パスワード">
         <input type="submit" name="submit" value="編集">
         </form>        
